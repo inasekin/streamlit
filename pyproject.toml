@@ -1,0 +1,18 @@
+[project]
+name = "weather-app"
+version = "0.1.0"
+description = "Streamlit-приложение для анализа температур"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.3",
+    "joblib>=1.5.3",
+    "numpy>=2.4.3",
+    "pandas>=2.3.3",
+    "plotly>=6.6.0",
+    "requests>=2.32.5",
+    "streamlit>=1.55.0",
+]
+
+[project.scripts]
+streamlit_app = "app:main"
